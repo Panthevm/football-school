@@ -1,0 +1,144 @@
+/* Media */
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .m-none {
+        display: none !important;
+    }
+    .m-block {
+        display: block !important;
+    }
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+body {
+    background-color: #f8f8f8;
+    margin: 0;
+    font-size: 1rem;
+    font-family: GothamPro;
+}
+
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*
+  Aliases
+*/
+
+.none {
+    display: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.pt-6 {
+    padding-top: 54px;
+}
+
+.pr-4 {
+    padding-right: 24px;
+}
+
+
+.pr-2 {
+    padding-right: 12px;
+}
+
+.pl-2 {
+    padding-left: 12px;
+}
+
+.mt-4 {
+    margin-top: 24px;
+}
+
+
+.white {
+    color: white;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*
+
+  Grid
+
+*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*
+  Typography
+*/
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 42px;
+}
+
+h1,
+b {
+    font-family: GothamPro-Bold;
+    font-weight: 900;
+}
+
+h3 {
+    font-family: GothamPro-Bold;
+    font-weight: 400;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*
+  Components
+*/
+
+/* Navbar */
+nav {
+    position: relative;
+    padding: 1rem;
+}
+
+.welcome {
+    border-radius: 0px 0px 18px 18px;
+    height: 42rem;
+    background: url(../images/platz.png) no-repeat;
+    background-size: cover;
+    color: white;
+}
