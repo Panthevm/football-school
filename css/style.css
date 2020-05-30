@@ -54,11 +54,26 @@ body {
 .center {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+
+.px-4 {
+    padding: 0px 24px 0px 24px;
 }
 
 .pt-6 {
     padding-top: 54px;
 }
+
+.pb-6 {
+    padding-bottom: 54px;
+}
+
+.pb-4 {
+    padding-bottom: 24px;
+}
+
 
 .pr-4 {
     padding-right: 24px;
@@ -82,9 +97,17 @@ body {
     color: white;
 }
 
+.bg-oragne {
+    background-color: #f68825;
+}
+
 .between {
     display: flex;
     justify-content: space-between;
+}
+
+.rounded {
+    border-radius: 1rem;
 }
 
 /*
@@ -97,6 +120,15 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 100%;
+}
+
 
 
 /*
@@ -129,7 +161,6 @@ a {
   Components
 */
 
-/* Navbar */
 nav {
     position: relative;
     padding: 1rem;
@@ -141,4 +172,24 @@ nav {
     background: url(../images/platz.png) no-repeat;
     background-size: cover;
     color: white;
+}
+
+.side-img {
+    object-fit: cover;
+    width: 35%;
+    height: 100%;
+    position:absolute;
+    top:0;
+}
+
+section {
+    position: relative;
+    margin: 4.5rem 0px 4.5rem 0px;
+}
+
+.ticket {
+    z-index: 10;
+    width: 550px;
+    background-color: #000;
+
 }
