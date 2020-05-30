@@ -149,6 +149,18 @@ h2 {
     font-weight: 900;
 }
 
+mt-4 h2{
+    font-family: GothamPro-Bold;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+p{
+    font-family: GothamPro-Bold;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
 h1,
 b {
     font-family: GothamPro-Bold;
