@@ -61,8 +61,17 @@ body {
     padding: 0px 24px 0px 24px;
 }
 
+.p-4 {
+    padding: 24px;
+}
+
 .pt-6 {
     padding-top: 54px;
+}
+
+
+.pt-4 {
+    padding-top: 24px;
 }
 
 .pb-6 {
@@ -91,6 +100,11 @@ body {
     margin-top: 24px;
 }
 
+.mb-6 {
+    margin-bottom: 54px;
+}
+
+
 
 .white {
     color: white;
@@ -98,6 +112,10 @@ body {
 
 .bg-oragne {
     background-color: #f68825;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .between {
@@ -123,8 +141,6 @@ body {
 .col {
     flex-basis: 0;
     flex-grow: 1;
-    padding-right: 1rem;
-    padding-left: 1rem;
     max-width: 100%;
 }
 
@@ -221,5 +237,41 @@ section {
     width: 80%;
 }
 
+.w-90 {
+    width: 90%;
+}
+
 .shadow {
-    box-shadow: 10px 10px 10px 0px rgba(34, 60, 80, 0.2);}
+    box-shadow: 10px 10px 10px 0px rgba(34, 60, 80, 0.2);
+}
+
+.card {
+    position: relative;
+    height: 600px;
+    width:  450px;
+    margin-bottom: 54px;
+}
+
+
+.card-content {
+    position: absolute;
+    bottom: 0;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover .card-content {
+    opacity: 80%;
+    height: 100%;
+}
+
+.card:hover .card-content-short {
+    display: none;
+}
+
+.card:hover .card-content-all {
+    display: block;
+}
